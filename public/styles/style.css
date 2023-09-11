@@ -1,0 +1,162 @@
+nav a, body {
+  font-size: 15px;
+  color: #ffcb00;
+  font-weight: 1px;
+}
+
+body {
+  background: linear-gradient(to top right, #072448, #ff6150);
+  font-family: sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.dropdown {
+  display: none;
+}
+
+.intro {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  background-color: #072448;
+  justify-content: center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #f8aa4b;
+  font-weight: bold;
+}
+
+.media {
+  margin-top: 5%;
+  margin-left: 5%;
+  max-width: 50%;
+}
+
+.description {
+  width: 50%;
+  height: auto;
+}
+
+.item-proyecto {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  max-height: 30%;
+  margin-top: 2%;
+}
+
+#contacto {
+  list-style-type: none;
+}
+
+.sections {
+  margin: 50px;
+  text-align: center;
+}
+
+a:visited {
+  color: #54d2d2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+  body {
+    background: linear-gradient(to top right, #072448, #54d2d2);
+  }
+  .item-proyecto {
+    flex-flow: column;
+  }
+  .description {
+    width: 100%;
+  }
+  .media {
+    width: 100%;
+    height: none;
+  }
+}
+@media (max-width: 800px) {
+  .dropbtn {
+    background-color: #ff6150;
+    padding: 10px;
+    color: #072448;
+    font-weight: bold;
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #072448;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: #ff6150;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f8aa4b;
+  }
+}
+.icon-icon1 {
+  background-image: url("../images/c_icon.png");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.icon-icon2 {
+  background-image: url("../images/GEEIcon.jpg");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.icon-icon3 {
+  background-image: url("../images/ITESO.svg");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.icon-icon4 {
+  background-image: url("../images/jsicon.png");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */
